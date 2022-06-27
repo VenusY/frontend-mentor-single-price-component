@@ -1,6 +1,12 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+}
+
 body {
   height: 100vh;
-  margin: 0;
   font-family: "Karla";
   font-size: 16px;
   font-weight: 400;
@@ -26,6 +32,8 @@ ul {
 }
 
 .card {
+  box-shadow: 0 20px 20px #c9d2d8;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -119,8 +127,9 @@ ul {
   width: 270px;
   height: 50px;
   font-weight: 700;
-  background: hsl(71, 73%, 54%);
   color: white;
+  background: hsl(71, 73%, 54%);
+  box-shadow: 0 5px 20px #249795;
   
   display: flex;
   justify-content: center;
